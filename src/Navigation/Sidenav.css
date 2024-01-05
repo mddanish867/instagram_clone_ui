@@ -1,0 +1,65 @@
+.sidenav {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 1;
+  }
+  
+  .sidenav__logo {
+    width: 100px;
+    margin: 25px;
+    margin-top: 40px;
+  }
+  
+  .sidenav__buttons {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sidenav__button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    background: 0;
+    border: 0;
+    margin: 5px 10px 5px 10px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 8px;
+    width: 100%;
+  }
+ 
+  
+  .sidenav__button:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.128);
+    width: 220px;
+  }
+  
+  .sidenav__button > span {
+    font-size: 16px;
+    font-weight: 350;
+    margin-left: 10px;
+    font-family:Calibri (MS);
+  }
+  
+  .sidenav__more {
+    position: fixed;
+    bottom: 3px;
+  }
+  
+  .logout__button {
+    font-size: 15px;
+    border-radius: 10px;
+    font-weight: 400;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.211);
+    border: 0;
+    padding: 10px;
+  }
+  
+  .logout__button:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.424);
+  }

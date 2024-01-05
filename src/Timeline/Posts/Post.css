@@ -1,0 +1,66 @@
+.post {
+    width: 550px;
+    margin: 0px 40px 50px -10px;
+    border-radius: 6px;
+    border-left: 0.6px solid rgba(93, 92, 92, 0.516);
+  }
+  
+  .post__header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .post__header2{
+    flex-direction: column; 
+    font-weight: 300;
+    font-size: 14px;
+  }
+  .sub__caption{
+    margin-left: 133px;
+  }
+  .post__headerAuthor {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 400;
+    margin-left: 85px;
+  }
+  
+  .post__headerAuthor > span {
+    color: grey;
+    font-size: 15px;
+  }
+  
+  .post__image > img {
+    width: 85%;
+    height: 600px;
+    border-radius: 6px;
+    margin-left: 85px;
+    border: 0.6px solid rgba(128, 128, 128, 0.516);
+  }
+  
+
+  .post__footerIcons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 75px;
+
+  }
+  
+  .postIcon {
+    padding: 7px;
+    font-size: 30px;
+  }
+  
+  .postIcon :hover {
+    cursor: pointer;
+    color: gray;
+  }
+  .horizIcon:hover{
+    cursor: pointer;
+    color: gray;
+  }
