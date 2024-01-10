@@ -1,0 +1,84 @@
+.main_signup {
+    display: flex;
+    flex-direction: column;
+    padding: 35px;
+    background-color: #fff;
+    height: 550px;
+}
+
+.signup {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    width: 347px;
+    margin-left: 423px;
+    margin-top: -23px;
+}
+
+.signup>img {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.signup>input {
+    background-color: #fefbfb;
+    border: 1px solid #e2e1e1;
+    border-radius: 2px;
+    padding: 10px;
+    margin-bottom: 6px;
+    color: black;
+    margin-left: 38px;
+    margin-right: 38px;
+}
+
+.signup>input:focus {
+    outline: none;
+}
+
+.signup>button {
+    padding: 9px;
+    border: 0;
+    border-radius: 8px;
+    color: #fff;
+    background-color: #0095f6;
+    font-weight: bolder;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 38px;
+    margin-right: 38px;
+}
+
+.signup>button:hover {
+    cursor: pointer;
+    background-color: #0064e0;
+}
+
+.auth_more {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 307px;
+    margin-right: 37px;
+    margin-left: 423px;
+    text-align: center;
+    margin-top: 10px;
+    color: black;
+}
+
+.auth_more>span {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.auth_more>span>button {
+    background: 0;
+    color: #0095f6;
+    font-weight: bolder;
+    border: 0;
+}
+
+.auth_more>span>button:hover {
+    cursor: pointer;
+}
